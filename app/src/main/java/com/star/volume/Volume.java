@@ -2,11 +2,15 @@ package com.star.volume;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
 
 public class Volume extends View {
+
+    private int mRectCount;
+    private Paint mPaint;
 
     public Volume(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -20,5 +24,11 @@ public class Volume extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+
+        for (int i = 0; i < mRectCount; i++) {
+            canvas.drawRect(
+                    0, 0, 0, 0, mPaint
+            );
+        }
     }
 }
