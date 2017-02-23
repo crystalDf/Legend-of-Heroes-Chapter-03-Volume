@@ -13,6 +13,7 @@ public class Volume extends View {
     private int mRectWidth;
     private int mRectHeight;
 
+
     private int mRectCount;
     private Paint mPaint;
 
