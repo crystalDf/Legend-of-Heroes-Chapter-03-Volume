@@ -9,6 +9,10 @@ import android.view.View;
 
 public class Volume extends View {
 
+    private int mWidth;
+    private int mRectWidth;
+    private int mRectHeight;
+
     private int mRectCount;
     private Paint mPaint;
 
