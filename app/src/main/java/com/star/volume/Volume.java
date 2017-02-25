@@ -76,7 +76,7 @@ public class Volume extends View {
             canvas.drawRect(
                     (float) (mWidth * 0.4 / 2 + mRectWidth * i + OFFSET),
                     (float) mCurrentHeight,
-                    (float) (mWidth * 0.4 / 2 + mRectWidth * (i + 1) + OFFSET),
+                    (float) (mWidth * 0.4 / 2 + mRectWidth * (i + 1)),
                     (float) mRectHeight,
                     mPaint
             );
