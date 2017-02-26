@@ -61,7 +61,6 @@ public class Volume extends View {
         );
 
         mPaint.setShader(mLinearGradient);
-
     }
 
     @Override
@@ -84,4 +83,5 @@ public class Volume extends View {
 
         postInvalidateDelayed(300);
     }
+
 }
